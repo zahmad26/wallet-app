@@ -1,19 +1,18 @@
-import React, { FunctionComponent } from "react";
+import React, { FC } from "react";
 import { StatusBar } from "expo-status-bar";
 import styled from "styled-components/native";
 import {styles} from "./styles";
 import { Image, View } from "react-native";
 //custom
-import { colors } from "../../components/colors";
-import { Container } from "../../components/Shared/shared";
-import BigText from "../../components/Texts/BigText/index";
-import SmallText from "../../components/Texts/SmallText/index";
-import RegularButton from "../../components/Buttons/RegularButton/index";
-
+// import { colors } from "../../../components/colors";
+// import { Container } from "../../../components/Shared/shared";
+import BigText from "components/Texts/BigText/index";
+import SmallText from "components/Texts/SmallText/index";
+import RegularButton from "components/Buttons/RegularButton/index";
 //image
-import background from "../../assets/bgs/background_v1.png";
+import background from "assets/bgs/background_v1.png";
 
-const Welcome: FunctionComponent = () => {
+const Welcome: FC = () => {
     return (
         <>
             <StatusBar style="light" />

@@ -1,10 +1,10 @@
-import React, { FunctionComponent } from 'react';
+import React, { FC } from 'react';
 import { TextProps } from '../types';
 import { styles } from './styles';
 import { Text } from 'react-native';
 
-const BigText: FunctionComponent<TextProps> = (props) => {
-    return <Text style={[styles.bigText, props.textStyles]}>{props.children}</Text>
+const BigText: FC<TextProps> = ({textStyles, children}) => {
+    return <Text style={[styles.bigText, textStyles]}>{children}</Text>
 }
 
 export default BigText;

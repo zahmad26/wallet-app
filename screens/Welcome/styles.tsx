@@ -4,7 +4,7 @@ import {
     ImageStyle
 } from 'react-native';
 
-import { colors } from "../../components/colors";
+import { colors } from "components/colors";
 
 interface Style {
     welcomeContainer: ViewStyle;

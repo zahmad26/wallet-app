@@ -1,10 +1,10 @@
-import React, { FunctionComponent } from 'react';
+import React, { FC } from 'react';
 import { TextProps } from '../types';
 import { styles } from './styles';
 import { Text } from 'react-native';
 
-const SmallText: FunctionComponent<TextProps> = (props) => {
-    return <Text style={[styles.smallText, props.textStyles]}>{props.children}</Text>
+const SmallText: FC<TextProps> = ({textStyles, children}) => {
+    return <Text style={[styles.smallText, textStyles]}>{children}</Text>
 }
 
 export default SmallText;
