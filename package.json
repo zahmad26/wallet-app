@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-navigation/native": "^6.0.10",
     "@react-navigation/native-stack": "^6.6.2",
+    "@react-navigation/stack": "^6.2.1",
     "@types/node": "*",
     "@types/styled-components": "^5.1.25",
     "@types/styled-components-react-native": "^5.1.3",

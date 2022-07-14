@@ -1,6 +1,5 @@
 import React, { FC } from "react";
 import { StatusBar } from "expo-status-bar";
-import styled from "styled-components/native";
 import {styles} from "./styles";
 import { Image, View } from "react-native";
 //custom
